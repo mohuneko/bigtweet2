@@ -68,3 +68,12 @@ gem 'carrierwave', '~> 1.2', '>= 1.2.3'
 gem 'mini_magick', '~> 4.9', '>= 4.9.2'
 #クラウドプロバイダを利用可能にする
 gem 'fog', '~> 2.0'
+#bootstrap4
+gem 'bootstrap', '~> 4.0.0.beta2.1'
+
+#jquery
+#bootstrapを利用するために必要
+gem 'jquery-rails', '~> 4.3', '>= 4.3.3'
+
+#FontAwesome
+gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.4'
