@@ -60,3 +60,11 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+gem 'dotenv-rails', '~> 2.5'
+#画像アップロード可能な状態にする
+gem 'carrierwave', '~> 1.2', '>= 1.2.3'
+#画像をリサイズしたりコンバートする
+gem 'mini_magick', '~> 4.9', '>= 4.9.2'
+#クラウドプロバイダを利用可能にする
+gem 'fog', '~> 2.0'
